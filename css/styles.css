@@ -1,33 +1,5 @@
 
-/* this could ne used to style the cards ???*/
 
-/* .ajax-section {
-    margin: 50px 0 20px;
-  }
-   
-  .ajax-section .cities {
-    display: grid;
-    grid-gap: 32px 20px;
-    grid-template-columns: repeat(4, 1fr);
-  }
-   
-  @media screen and (max-width: 1000px) { 
-    .ajax-section .cities {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-   
-  @media screen and (max-width: 700px) {
-    .ajax-section .cities {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-   
-  @media screen and (max-width: 500px) {  
-    .ajax-section .cities {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  } */
 
   .bg-primary.bg-gradient{
     background-image: linear-gradient(to right, rgb(60, 84, 165) , rgb(7, 6, 105));
@@ -46,3 +18,27 @@ h5{
     margin-bottom: 1rem!important;
     width: 20vw;
 }
+#fiveDayCard{
+    color: white;
+    display: flex;
+}
+.fiveDay{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(58, 54, 66);
+}
+.city-btn{
+    width: 20vw;
+    background: grey;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 20vw;
+    vertical-align: middle;
+}
+
+
+
