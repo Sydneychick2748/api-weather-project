@@ -19,7 +19,6 @@ THEN I am again presented with current and future conditions for that city -->
 
 
 
-http://api.openweathermap.org/geo/1.0/direct?q=boulder,colorado,1&limit=5appid=7e4bd1e951cf0599deed23d6658120ae
 
 
 
@@ -29,20 +28,3 @@ http://api.openweathermap.org/geo/1.0/direct?q=boulder,colorado,1&limit=5appid=7
 
 
 
-<!-- function for the form input i think a submit so the imput can be stored 
-
-
-
-need a function to get the time and date (maybe the time and date are in the api call ????)
-
-
-
-
- fetch for the citys api
- store the info so i can have it in my save history 
-need to then retrieve the old data that has been saved in the history so on click ???
-You will use localStorage to store any persistent data. 
-
-
-
- fetch for the icons  -->
