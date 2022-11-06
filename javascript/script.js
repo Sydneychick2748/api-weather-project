@@ -4,9 +4,9 @@ var apiKey = "7e4bd1e951cf0599deed23d6658120ae";
 
 // this is the api function that will run the fetch
 var getCityLatLon = function (city) {
-  var url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
+  var lanLonUrl= `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 
-  fetch(url).then(function (response) {
+  fetch(lanLonUrl).then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
         lon = data[0].lon;
