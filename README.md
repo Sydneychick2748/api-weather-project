@@ -17,16 +17,26 @@ THEN I am again presented with current and future conditions for that city -->
 
 
  #Description
-tThis project is a daily planner for people with busy schedules to keep up with all their tasks for the hours of the day. With a busy schedule, I want to add important events to a daily planner so I can manage my time effectively. You can see the live site here https://sydneychick2748.github.io/Third-Party-API-Work-Day-Scheduler/ The planner has the date and day displayed when you visit your planner. The times 9 am to 5 pm are displayed on the side of the planner, and there is an input field and store button to put the task you want in accordance with that time. So when you leave your planner, come back to check the following tasks. The tasks should still be there for you as a user to see. There is also a clear button to clear the planner for the next day. This project was a little tricky. First, I had some challenges as it had to be in jquery. I started making a for loop and arrays and using document get element by id and a few other vanilla js code. I needed help understanding the jquery methods and how to apply them. With some help, I got it worked out. Jquery takes fewer lines of code than vanilla js, which is more manageable if you know the library. I did enjoy the project after I got threw my challenges.
+ 
+ This weather app allows you to see the weather outlook for multiple cities so that you can plan a trip accordingly. 
+You can input any city in the world and then see the current weather for that city and the five-day forecast for that specific city. Then, when you want to go back and check that particular city again, it will be stored in your history, and you can just click on the city you searched for before, and the weather will show again; you can also look for new city  if you choose to. You can view the live site here. 
+This project was great to do. Learning the API calls, getting the key, and looking in the JSON for the data was fun. I loved using template literals to display the data on the page. The tricky part for me was showing the history and having the history being able to be clickable, and re-displaying the weather. I love doing this assignment and playing with the weather API.
+
+
 
 #Table of Contents
-Description
-Installation
-Usage
-Support
-Credits
-License
-Installation
+
+-Description
+-Installation
+-Usage
+-Support
+-Credits
+-License
+
+
+
+#Installation
+
 To set up the development environment and run it, I made a folder in my finder and named it. Then I went to GitHub and created a new repository using the same name I called my folder. Then I dropped the file in vs. and made my coding environment. First, I set up my HTML file: index. html, I set up the CSS file: styles.css and my JavaScript file: script.js. Then went back to GitHub, copied the ssh key, and made a clone. Then pushed my code to GitHub.
 
 #Usage
