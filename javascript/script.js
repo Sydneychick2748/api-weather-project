@@ -40,6 +40,7 @@ var cardBodyEl = document.querySelector(".card-body");
 var fiveDayEl = document.getElementById("fiveDayCard");
 
 var getCityWeather = function (lat, lon, city) {
+  debugger;
   const weatherUrl = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`;
   fetch(weatherUrl).then(function (response) {
     if (response.ok) {
@@ -48,7 +49,7 @@ var getCityWeather = function (lat, lon, city) {
 
         let template = "";
         let templateCurrent = "";
-        // i think i have to have moments and then make a variable to the time of today and then pull the weather for the time that the user comes to the page ???????
+
         templateCurrent += `
         <div class="card-body">
         <h3>${name}</h3>
@@ -115,12 +116,15 @@ var getCityWeather = function (lat, lon, city) {
 
         // store in local storage
         var oldData = localStorage.getItem("city") || [];
-
+        debugger;
         var parsedOldData = oldData.length === 0 ? [] : JSON.parse(oldData);
 
-        parsedOldData.push(city);
+        // if the thing that is already in there don't psuh
+        if (!parsedOldData.includes(city)) {
+          parsedOldData.push(city);
 
-        localStorage.setItem("city", JSON.stringify(parsedOldData));
+          localStorage.setItem("city", JSON.stringify(parsedOldData));
+        }
 
         createAllButton();
       });
@@ -163,52 +167,8 @@ var saveBtnEl = document.querySelector("#searchBtn");
 
 var formSubmitHandler = function (event) {
   event.preventDefault();
-  // let inputVal = input.value;
- var city = cityNameInputEl.value.trim();
-
-//   if (city) {
-//     getCityLatLon(city);
-//     mainCityNameEl.textContent = "";
-//     cityNameInputEl.value = "";
-//   } else {
-//     alert("Please enter a city");
-//   }
-//   console.log(city, "city");
+  var city = cityNameInputEl.value.trim();
   getCityLatLon(city);
 };
 
-// this is when the button is clicked the info is stored in local storage
-// var saveBtnEl = document.querySelector("#searchBtn");
-// var saveBtnClickHandler = function (event) {
-//   var getCity = event.target.getAttribute("cityName");
-//   console.log(getCity, "nameCity");
-//   dateTime = localStorage.getItem("cityName").val();
-//   humidity = localStorage.getItem("loseCount").val();
-
-//  date.textContent = dateTime;
-//  console.log(date, "date")
-
-// document.querySelector(".reset-button").addEventListener("click", function () {
-//   // set the storage to 0
-//   localStorage.setItem("date");
-
-//   // show
-//   date.textContent = dateTime;
-
-// });
-// };
-
-// // this will be the saved searches and then when you click them they will display the weather again
-// var storeBtnEl = document.querySelector("#storeBtn");
-// var storedHistoryBtnClickHandler = function (event) {
-//     var getCity = event.target.getAttribute("cityName");
-//     console.log(getCity);
-
-//   };
-
 searchFormEl.addEventListener("submit", formSubmitHandler);
-// // saveBtnEl.addEventListener("click", saveBtnClickHandler);
-//  storeBtnEl.addEventListener("click", storedHistoryBtnClickHandler);
-
-// // so you need 2  functions you will creat a nutton and  save it to localstore it in array .taht button will have an event listenr taht will grab that name .athen another fucntion that will loop threw the localstrage and then create a button out of them .
-// // give the eventl istener for the button click on the parent container and distribute the rest to the children and they should be all buttons

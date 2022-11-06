@@ -40,5 +40,36 @@ h5{
     vertical-align: middle;
 }
 
+.card{
+    border: 1px solid black;
+}
 
 
+@media screen and (max-width: 768px) {
+#fiveDayCard {
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-inline .form-control {
+    width: 100vw;
+}
+.mb-3, .my-3 {
+   
+   
+    width: 100vw;
+}
+
+.city-btn {
+
+    width: 100%;
+
+}
+}
+
+@media screen and (max-width: 1024px){
+.form-inline .form-control {
+    /* width: 100vw; */
+    width: 18vw;
+}
+}
