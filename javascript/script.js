@@ -20,6 +20,8 @@ var getCityLatLon = function (city) {
   });
 };
 
+// this is the function pulls in weather data  from an api and then we pass in the parameters .
+
 var cardDivEl = document.querySelector(".card-title");
 var cardBodyEl = document.querySelector(".card-body");
 var fiveDayEl = document.getElementById("fiveDayCard");
@@ -33,7 +35,7 @@ var getCityWeather = function (lat, lon, city) {
 
         let template = "";
         let templateCurrent = "";
-
+        // this is a template literal passing in the object in the data to display on the page
         templateCurrent += `
         <div class="card-body">
         <h3>${name}</h3>
@@ -65,7 +67,7 @@ var getCityWeather = function (lat, lon, city) {
 
         data.list.forEach(function (item) {
           timeOnly = item.dt_txt.split(" ")[1];
-
+          // if statement to only display the weather at time 12.00 then apply ing the template literal to display the data on the page
           if (timeOnly === "12:00:00") {
             console.log(item, "item");
             template += `
@@ -103,7 +105,7 @@ var getCityWeather = function (lat, lon, city) {
 
         var parsedOldData = oldData.length === 0 ? [] : JSON.parse(oldData);
 
-        // if the thing that is already in there don't psuh
+        // if the thing that is already in there don't push
         if (!parsedOldData.includes(city)) {
           parsedOldData.push(city);
 
@@ -117,7 +119,7 @@ var getCityWeather = function (lat, lon, city) {
     }
   });
 };
-
+//  this is getting the data in the local storage nad then saving them
 var createAllButton = function () {
   var data = localStorage.getItem("city") || [];
   var parsedOldData = data.length === 0 ? [] : JSON.parse(data);
@@ -135,11 +137,10 @@ var createAllButton = function () {
 };
 
 createAllButton();
-
+// this is the history on click function
 document.querySelector("#history").addEventListener("click", function (event) {
-  // get the name from element
   var cityName = event.target.textContent;
-  // func the
+
   getCityLatLon(cityName);
 });
 
