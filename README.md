@@ -1,10 +1,12 @@
 # api-weather-project
 
+
 ##Description
  
  This weather app allows you to see the weather outlook for multiple cities so that you can plan a trip accordingly. 
-You can input any city in the world and then see the current weather for that city and the five-day forecast for that specific city. Then, when you want to go back and check that particular city again, it will be stored in your history, and you can just click on the city you searched for before, and the weather will show again; you can also look for new city  if you choose to. You can view the live site here. 
+You can input any city in the world and then see the current weather for that city and the five-day forecast for that specific city. Then, when you want to go back and check that particular city again, it will be stored in your history, and you can just click on the city you searched for before, and the weather will show again; you can also look for new city  if you choose to. You can view the live site here:https://github.com/Sydneychick2748/api-weather-project. 
 This project was great to do. Learning the API calls, getting the key, and looking in the JSON for the data was fun. I loved using template literals to display the data on the page. The tricky part for me was showing the history and having the history being able to be clickable, and re-displaying the weather. I love doing this assignment and playing with the weather API.
+
 
 
 
@@ -16,6 +18,8 @@ This project was great to do. Learning the API calls, getting the key, and looki
 - [Support](#support)
 - [Credits](#credits)
 - [License](#license)
+
+
 
 
 
@@ -75,8 +79,7 @@ When I click on a city in the search history Then I am again presented with curr
 you can email me for extra support at anabennett77@gmail.com
 
 ##License
-please refer to the repo at https://github.com/Sydneychick2748/Third-Party-API-Work-Day-Scheduler
-
+please refer to the repo at https://github.com/Sydneychick2748/api-weather-project
 ##Features
 
 
