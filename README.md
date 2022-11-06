@@ -16,7 +16,7 @@ THEN I am again presented with current and future conditions for that city -->
 <!-- hint____Using the 5 Day Weather Forecast API, you'll notice that you will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name? -->
 
 
- #Description
+##Description
  
  This weather app allows you to see the weather outlook for multiple cities so that you can plan a trip accordingly. 
 You can input any city in the world and then see the current weather for that city and the five-day forecast for that specific city. Then, when you want to go back and check that particular city again, it will be stored in your history, and you can just click on the city you searched for before, and the weather will show again; you can also look for new city  if you choose to. You can view the live site here. 
@@ -24,22 +24,23 @@ This project was great to do. Learning the API calls, getting the key, and looki
 
 
 
-#Table of Contents
+##Table of Contents
 
--Description
--Installation
--Usage
--Support
--Credits
--License
+- [Description](#Description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Support](#support)
+- [Credits](#credits)
+- [License](#license)
 
 
 
-#Installation
+
+##Installation
 
 To set up the development environment and run it, I made a folder in my finder and named it. Then I went to GitHub and created a new repository using the same name I called my folder. Then I dropped the file in vs. and made my coding environment. First, I set up my HTML file: index. html, I set up the CSS file: styles.css and my JavaScript file: script.js. Then went back to GitHub, copied the ssh key, and made a clone. Then pushed my code to GitHub.
 
-#Usage
+##Usage
 GIVEN I am using a daily planner to create a schedule Here is a video to show the functionality of the planner
 
 <iframe src="https://drive.google.com/file/d/1jRQ36voriEM0r8PsfHMDTY8heZV2E5nv/preview" width="640" height="480"></iframe>
@@ -67,14 +68,14 @@ when i click the clear button all the inputs that were saved are no longer saved
 
 image
 
-#Support
+##Support
 you can email me for extra support at anabennett77@gmail.com
 
-#License
+##License
 please refer to the repo at https://github.com/Sydneychick2748/Third-Party-API-Work-Day-Scheduler
 
-#Features
-A speacial feature of this project is you can clear the stored inputs when you chose
+##Features
+
 
 
 
