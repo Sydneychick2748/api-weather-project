@@ -24,28 +24,50 @@ This project was great to do. Learning the API calls, getting the key, and looki
 To set up the development environment and run it, I went to GitHub and created a new repository using and named it. Then i cloned it. I dropped the file in vs. and made my coding environment. First, I set up my HTML file: index. html, I set up the CSS file: styles.css and my JavaScript file: script.js. Then pushed my code to GitHub.
 
 
+
+
 ##Usage
-GIVEN a weather dashboard with form inputs WHEN I search for a city
+
+Given a weather dashboard with form inputs when I search for a city
+
+
 <img width="255" alt="image" src="https://user-images.githubusercontent.com/87034052/200200376-def92a56-9b8c-4733-96f8-1e66f7494bfc.png">
 
 
-THEN I am presented with current and future conditions for that city and that city is added to the search history
+
+
+
+Then I am presented with current and future conditions for that city and that city is added to the search history
+
+
 <img width="1161" alt="image" src="https://user-images.githubusercontent.com/87034052/200200466-750a4d3e-a885-4fc2-995a-6469d85842ce.png">
 
 
-WHEN I view current weather conditions for that city THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+
+
+
+When I view current weather conditions for that city Then I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
+
+
+
 <img width="223" alt="image" src="https://user-images.githubusercontent.com/87034052/200200480-255f9a39-bc21-4414-a7b3-89ddc6b70bb7.png">
 
 
 
-WHEN I view future weather conditions for that city THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.
+When I view future weather conditions for that city Then I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.
+
+
 <img width="856" alt="image" src="https://user-images.githubusercontent.com/87034052/200200591-2ce8fccb-c10c-4b98-abaf-ad8807faae6c.png">
 
 
 
 
-WHEN I click on a city in the search history THEN I am again presented with current and future conditions for that city
+
+When I click on a city in the search history Then I am again presented with current and future conditions for that city
+
+
 <img width="1198" alt="image" src="https://user-images.githubusercontent.com/87034052/200200634-32cc1602-27c6-49a1-9dc5-3dc3424418f0.png">
+
 
 
 
