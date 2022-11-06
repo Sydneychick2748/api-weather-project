@@ -33,6 +33,16 @@ To set up the development environment and run it, I went to GitHub and created a
 
 ##Usage
 
+
+
+here is a video link to see the fucntionality:
+
+
+<iframe src="https://drive.google.com/file/d/1aicbsnTS6tYDEjPFFxSNqd0ha43xCGBZ/preview" width="640" height="480"></iframe>
+
+
+
+
 Given a weather dashboard with form inputs when I search for a city
 
 
