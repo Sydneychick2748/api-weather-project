@@ -36,7 +36,7 @@ To set up the development environment and run it, I went to GitHub and created a
 
 
 here is a video link to see the fucntionality:
-file: ///Users/owner/Downloads/Untitled_%20Nov%206,%202022%204_09%20PM.webm"
+
 <iframe src="https://drive.google.com/file/d/1FL1U-4KpFWAF8bVj3aQAN5CBco4jA1e5/preview" width="640" height="480"></iframe>
 
 
