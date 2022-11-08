@@ -4,7 +4,7 @@ var apiKey = "7e4bd1e951cf0599deed23d6658120ae";
 
 // this is the api function that will run the fetch
 var getCityLatLon = function (city) {
-  var lanLonUrl= `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
+  var lanLonUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 
   fetch(lanLonUrl).then(function (response) {
     if (response.ok) {
@@ -97,8 +97,6 @@ var getCityWeather = function (lat, lon, city) {
 
         //show data
         fiveDayEl.innerHTML = template;
-
-        console.log("city??", city);
 
         // store in local storage
         var oldData = localStorage.getItem("city") || [];
